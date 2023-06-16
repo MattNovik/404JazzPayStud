@@ -713,13 +713,15 @@ button,
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 6px;
-  background-color: #FF4930;
+  background-color: #ff4930;
   text-transform: uppercase;
   color: #ffffff;
   padding: 17px;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  border: none;
+  cursor: pointer;
 }
 
 /* @mixin hover-focus {

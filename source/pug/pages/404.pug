@@ -1,7 +1,7 @@
 extends ../components/base/layout
 
 block variables
-  - const title = "404PageNotFound" //- на страницах кроме главной используйте О нас — ProjectName
+  - const title = "404" //- на страницах кроме главной используйте О нас — ProjectName
   - const wrapperMods = ""
   - const hasHeader = true
   - const headerMods = ""
@@ -12,11 +12,11 @@ block variables
 block main
   main
     .page-container
-      +img("content", "big", "png", 645, 966, "404page").page-container__image
+      +img("content", "big", "png", 645, 966, "404page")
       .page-container__text-wrapper
         h1 404
         .page-container__text
           p.page-container__text-main Упс! Страница не найдена.
           p.page-container__text-help Запрашиваемая вами страница не найдена.
-          a(href="/").page-container__link вернуться в магазин
+          button(type="button").page-container__link вернуться в магазин
 
